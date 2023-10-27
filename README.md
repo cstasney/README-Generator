@@ -15,11 +15,11 @@
 
 ⬇️ Below is a gif to demonstrate functionality. ⬇️
 
-![Stasney functionality gif](media\READMEgen.gif)
+![Stasney functionality gif](./media\READMEgen.gif)
 
 ⬇️ The full moive demonstrating funcationality can be downloaded here ⬇️
 
-[Movie](media\READMEgen.webm)  
+[Movie](./media\READMEgen.webm)  
 
 ## User Story
 
