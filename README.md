@@ -1,21 +1,25 @@
-# 09 Node.js Challenge: Professional README Generator
+<h1 align="center">node.js README Generator </h1>
+ 
+<p align="center">
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/jQuery-blue"  />
+    <img src="https://img.shields.io/badge/-node.js-green" />
+    <img src="https://img.shields.io/badge/-inquirer-red" >
+    <img src="https://img.shields.io/badge/-screencastify-lightgrey" />
+    <img src="https://img.shields.io/badge/-json-orange" />
+</p>
 
-## Your Task
+## Description
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
+🪧 This is a node.js app that accepts user input to write a README.md file. The new README.md overwrites the existing README.md in the dist directory.
 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+⬇️ Below is a gif to demonstrate functionality. ⬇️
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
+![Stasney functionality gif](media\READMEgen.gif)
 
-The application will be invoked by using the following command:
+⬇️ The full moive demonstrating funcationality can be downloaded here ⬇️
 
-```bash
-node index.js
-```
-
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
-
+[Movie](media\READMEgen.webm)  
 
 ## User Story
 
