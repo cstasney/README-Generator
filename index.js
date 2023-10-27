@@ -6,7 +6,7 @@ const generateReadme = require("./utils/generateReadme.js")
 const writeFileAsync = util.promisify(fs.writeFile);
 
 //Prompt the user questions to populate the README.md
-function promptUser(){
+function promptUser() {
     return inquirer.prompt([
         {
             type: "input",
@@ -68,5 +68,18 @@ function promptUser(){
             message: "Please enter your email: "
         }
     ]);
-} 
+}
 
+// Asynchronous function to write to readme
+async function init() {
+    try {
+        // ask user questions and lock in answers
+        const answers = await promptUser();
+        cont generateContent = generateReadme(answers);
+        // write new README.md to dist directory
+        await writeFileAsync('./dist/README.md', generateContent);
+        console.log('✅ Successfully generated a killer README');
+    } catch (error) {
+        console.log(error);
+    }
+}
