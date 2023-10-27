@@ -11,7 +11,7 @@
 
 ## Description
 
-🪧 This is a node.js app that accepts user input to write a README.md file. The new README.md overwrites the existing README.md in the dist directory.
+🪧 This is a node.js app that accepts user input to write a README.md file. The new README.md overwrites the existing README.md in the dist directory. The index.js contains the prompts, init function, and the functions to write the README.me file. The generateREADME.js file contains script to populate the README.md.
 
 ⬇️ Below is a gif to demonstrate functionality. ⬇️
 
