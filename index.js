@@ -75,7 +75,7 @@ async function init() {
     try {
         // ask user questions and lock in answers
         const answers = await promptUser();
-        cont generateContent = generateReadme(answers);
+        const generateContent = generateReadme(answers);
         // write new README.md to dist directory
         await writeFileAsync('./dist/README.md', generateContent);
         console.log('✅ Successfully generated a killer README');
