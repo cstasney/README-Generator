@@ -21,7 +21,13 @@ function generateReadme(answers) {
     📀 ${answers.installation}
 
     ## Usage
-💻 ${answers.usage}
+    💻 ${answers.usage}
+
+    ## License
+    ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+    <br />
+    This application is covered by the ${answers.license} license. 
+    
 
     `
     }
