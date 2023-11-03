@@ -15,11 +15,11 @@
 
 ⬇️ Below is a gif to demonstrate functionality. ⬇️
 
-![Alt Text](src\READMEgen.gif)
+![Alt Text](src/READMEgen.gif)
 
 ⬇️ The full moive demonstrating funcationality can be downloaded here ⬇️
 
-[Movie](src\READMEgen.webm)  
+[Movie](src/READMEgen.webm)  
 
 ## User Story
 
